@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "qualitysoftware-a5-2-p310"
+version = "0.1.0"
+description = ""
+authors = ["Edwin Hernandez <edwin.hdez@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
