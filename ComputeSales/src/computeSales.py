@@ -12,7 +12,9 @@ def load_catalogue(catalogue_file):
             # Validate that all prices are numbers
             for product, price in catalogue.items():
                 if not isinstance(price, (int, float)):
-                    raise ValueError(f"Invalid price for product {product}: {price}")
+                    raise ValueError(
+                        f"Invalid price for product {product}: {price}"
+                    )
             return catalogue
     except (FileNotFoundError, json.JSONDecodeError, ValueError) as e:
         print(f"Error loading catalogue: {e}")
@@ -27,7 +29,9 @@ def load_sales(sales_file):
             # Validate that all quantities are numbers
             for sale in sales:
                 if not isinstance(sale['quantity'], (int, float)):
-                    raise ValueError(f"Invalid quantity for product {sale['product']}: {sale['quantity']}")
+                    raise ValueError(
+                        f"Invalid quantity for product {sale['product']}: {sale['quantity']}"
+                    )
             return sales
     except (FileNotFoundError, json.JSONDecodeError, ValueError) as e:
         print(f"Error loading sales: {e}")
@@ -43,7 +47,9 @@ def compute_sales(catalogue, sales):
             quantity = sale['quantity']
             if product_id in catalogue:
                 if not isinstance(quantity, (int, float)):
-                    raise ValueError(f"Invalid quantity for product {product_id}: {quantity}")
+                    raise ValueError(
+                        f"Invalid quantity for product {product_id}: {quantity}"
+                    )
                 item_total = catalogue[product_id] * quantity
                 total_sales += item_total
                 sales_details.append({

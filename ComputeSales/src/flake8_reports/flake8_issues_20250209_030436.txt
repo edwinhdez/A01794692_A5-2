@@ -1,0 +1,11 @@
+flake8 found issues:
+.\ComputeSales\tests\test_compute_sales.py:5:1: E302 expected 2 blank lines, found 1
+.\ComputeSales\tests\test_compute_sales.py:11:1: W293 blank line contains whitespace
+.\ComputeSales\tests\test_compute_sales.py:16:1: W293 blank line contains whitespace
+.\ComputeSales\tests\test_compute_sales.py:23:9: E265 block comment should start with '# '
+.\ComputeSales\tests\test_compute_sales.py:26:5: E301 expected 1 blank line, found 0
+.\ComputeSales\tests\test_compute_sales.py:28:151: E501 line too long (201 > 150 characters)
+.\ComputeSales\tests\test_compute_sales.py:30:1: W293 blank line contains whitespace
+.\ComputeSales\tests\test_compute_sales.py:62:151: E501 line too long (221 > 150 characters)
+.\ComputeSales\tests\test_compute_sales.py:66:1: E305 expected 2 blank lines after class or function definition, found 1
+.\ComputeSales\tests\test_compute_sales.py:67:20: W292 no newline at end of file
