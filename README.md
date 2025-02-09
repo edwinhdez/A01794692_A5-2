@@ -53,11 +53,11 @@ poetry run flake8
 ## Conclusiones
 Después de usar flake8 para validar el código, se encontraron y corrigieron varios problemas de estilo, incluyendo:
 
-Líneas demasiado largas.
-Líneas en blanco incorrectas.
-Comentarios de bloque que no comenzaban con # .
-Falta de nuevas líneas al final de los archivos.
-Todos estos problemas fueron corregidos para asegurar que el código cumple con las convenciones de estilo de PEP8. Ahora, flake8 no encuentra ningún problema en el código:
+- Líneas demasiado largas.
+- Líneas en blanco incorrectas.
+- Comentarios de bloque que no comenzaban con # .
+- Falta de nuevas líneas al final de los archivos.
+- Todos estos problemas fueron corregidos para asegurar que el código cumple con las convenciones de estilo de PEP8. Ahora, flake8 no encuentra ningún problema en el código:
 
 ``` sh
 No issues found by flake8.
