@@ -71,6 +71,8 @@ No issues found by flake8.
 │   │   ├── catalogue.json
 │   │   ├── sales_records.json
 │   │   └── SalesResults.txt
+│   ├── flake8_reports
+│   │   └── flake8_issues_YYYYMMDD_HHMMSS.txt
 │   ├── src
 │   │   ├── computeSales.py
 │   │   └── utils
