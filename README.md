@@ -29,25 +29,25 @@ Este proyecto es una herramienta para calcular las ventas totales y generar un i
 Para ejecutar el programa, puedes usar los paths por defecto o proporcionar tus propios paths para los archivos de catálogo y ventas:
 
 ```sh
-poetry run python ComputeSales/src/computeSales.py
+python3 ComputeSales\src\computeSales.py
 ```
 
 ### O proporcionando los paths:
 ```sh 
-poetry run python ComputeSales/src/computeSales.py path/to/catalogue.json path/to/sales_records.json
+python3 ComputeSales\src\computeSales.py path/to/catalogue.json path/to/sales_records.json
 ```
 ### Ejecutar las pruebas
 Para ejecutar las pruebas unitarias, usa el siguiente comando:
 
 ```sh
-poetry run pytest
+python3 ComputeSales\test\test_compuet_sales.py
 ```
 
 ### Ejecutar flake8
 Para verificar el cumplimiento con PEP8 usando flake8, ejecuta el siguiente comando:
 
 ``` sh
-poetry run flake8
+python3 ComputeSales\src\utils\run_flake8.py
 ``` 
 
 ## Conclusiones

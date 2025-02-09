@@ -1,0 +1,21 @@
+Sales Summary Report
+====================
+Total Sales: $130.00
+
+Details:
+Product: product1
+  Quantity: 2
+  Unit Price: $10.00
+  Total Price: $20.00
+
+Product: product2
+  Quantity: 1
+  Unit Price: $20.00
+  Total Price: $20.00
+
+Product: product3
+  Quantity: 3
+  Unit Price: $30.00
+  Total Price: $90.00
+
+Time elapsed: 3.34 seconds
