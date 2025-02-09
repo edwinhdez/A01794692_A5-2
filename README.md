@@ -33,18 +33,21 @@ poetry run python ComputeSales/src/computeSales.py
 ```
 
 ### O proporcionando los paths:
-``` poetry run python ComputeSales/src/computeSales.py path/to/catalogue.json path/to/sales_records.json
+```sh 
+poetry run python ComputeSales/src/computeSales.py path/to/catalogue.json path/to/sales_records.json
 ```
 ### Ejecutar las pruebas
 Para ejecutar las pruebas unitarias, usa el siguiente comando:
 
-```poetry run pytest
+```sh
+poetry run pytest
 ```
 
 ### Ejecutar flake8
 Para verificar el cumplimiento con PEP8 usando flake8, ejecuta el siguiente comando:
 
-``` poetry run flake8
+``` sh
+poetry run flake8
 ``` 
 
 ## Conclusiones
@@ -56,10 +59,12 @@ Comentarios de bloque que no comenzaban con # .
 Falta de nuevas líneas al final de los archivos.
 Todos estos problemas fueron corregidos para asegurar que el código cumple con las convenciones de estilo de PEP8. Ahora, flake8 no encuentra ningún problema en el código:
 
-``` No issues found by flake8.
+``` sh
+No issues found by flake8.
 ``` 
 
 ## Estructura del Proyecto
+``` sh
 .
 ├── ComputeSales
 │   ├── data
@@ -74,6 +79,6 @@ Todos estos problemas fueron corregidos para asegurar que el código cumple con 
 │       └── test_compute_sales.py
 ├── pyproject.toml
 └── README.md
-
+```
 ## Autor
 Edwin Hernandez - A01794692@tec.mx
